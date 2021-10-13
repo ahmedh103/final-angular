@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="col-md-6">
+        <h1 class="text-center text-inf">Add Teacher page </h1>
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-dark">
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr *ngFor="let techear of allData">
+                        <th>{{techear.id}}</th>
+                        <th>{{techear.name}}</th>
+                        <th>{{techear.course}}</th>
+                        <th><button (click)="remove(techear.id)" class="btn btn-danger">Delete</button></th>
+                        <th><a routerLink="{{techear.id}}" class="btn btn-info">Edit</a></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="col-md-6">
+        <h1 class="text-center text-inf">Update Teacher Number {{id}} </h1>
+        <div class="card">
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="">Teacher Name</label>
+                    <input type="text" [(ngModel)]="object.name" class="form-control">
+
+                </div>
+                <div class="form-group">
+                    <label for="">Teacher course</label>
+                    <input type="text" [(ngModel)]="object.course" class="form-control">
+
+                </div>
+                <button (click)="update()" class="btn btn-info btn-block w-50 mx-auto"> Send Data</button>
+            </div>
+        </div>
+    </div>
+
+</div>

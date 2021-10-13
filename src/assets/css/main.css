@@ -1,0 +1,186 @@
+.navbar{
+
+
+    background: linear-gradient(to left,red,blue);
+    
+}
+
+
+.navbar a{width: 4%;
+
+
+
+}
+
+
+
+.navbar  ul li:hover{
+
+border-radius: 10px;
+background-color: white;
+text-decoration: underline;
+
+}
+.btn-outline-success {
+    color: blue;
+    border-color: blue;
+}
+
+
+.carousel img{height: 95vh;}
+
+
+.layout {
+    background: linear-gradient(to left,red,blue);
+    margin-top: 20px;
+
+
+}
+
+.hr {
+    background: linear-gradient(to left, red, white, red);
+    height: 3px;
+    width: 50%;
+    margin: auto;
+    border-radius: 40%;
+    margin-top: 5px;
+}
+
+.hr1 {
+    background-color: white;
+    height: 3px;
+    width: 45%;
+    margin: auto;
+    border: double;
+    margin-top: 7px;
+}
+
+.hr2 {
+    background-color: white;
+    height: 3px;
+    width: 30%;
+    margin: auto;
+    border: double;
+    margin-top: 7px;
+}
+
+.container  .col-md-4{
+margin-top: 12px;
+
+}
+.row .col-md-4  img{
+
+width: 100%;
+height: 50vh;
+
+} 
+.row .col-md-5  img{
+
+    width: 100%;
+    height: 50vh;
+    
+    } 
+    
+
+.type .nav{ 
+
+
+    justify-content: center;
+}
+
+
+
+
+.row .cl-md-4   button{
+
+    border-radius: 20px;
+    background-color: red;
+    
+    }
+    .row .cl-md-4   input{
+        display: block; 
+        width: 100%;
+       
+         font-size: 20px; 
+         font-weight: 400; 
+         line-height: 1.5; 
+         color: black; 
+         background-color:white; 
+         background-clip: padding-box; 
+         border: 1px solid #ced4da; 
+         border-radius: 10px;
+    
+    
+    
+    }
+.row .cl-md-4   h5{
+
+    color: white;
+}
+.row .cl-md-4    .haha{
+
+color: white;
+
+}
+footer{
+
+
+    background: linear-gradient(to left,red,blue);
+    margin-top: 20px;
+}
+
+footer     ul{
+
+ text-decoration: none;
+}
+footer  .ff li{
+    list-style-type: none;
+}
+
+
+footer .container  .row a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+  
+}
+
+.social-icons {
+    
+    list-style: none;
+}
+
+
+@media(max-width:600px){
+
+
+    .navbar a{
+
+        width: 20%;
+        margin: 0%;
+        }
+        .btn-outline-success {
+            color: red;
+            border-color: red;
+        }
+        .carousel img{
+            
+            height: 50vh;
+        
+        }
+        footer .container  .row     .copyright-text  a{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: 6px;
+            margin-right: 0;
+            border-radius: 100%;
+display: inline-block;
+color: white;
+
+        }
+   
+}

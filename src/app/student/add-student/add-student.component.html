@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="col-md-6">
+        <h1 class="text-center text-inf">Add Student page </h1>
+        <div class="card">
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="">Student Name: {{invalidMassege}}</label>
+                    <input type="text" #userName="ngModel" required minlength="3" [(ngModel)]="object.name"
+                        class="form-control">
+                    <div *ngIf="userName.invalid && userName.touched" class="alert alert-info">
+                        plese enter valid
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="">Student course:{{invalidMassege}}</label>
+                    <input type="text" #levelName="ngModel" required [(ngModel)]="object.Level" class="form-control">
+                    <div *ngIf="levelName.invalid && levelName.touched" class="alert alert-info">
+                        plese enter course
+
+                    </div>
+
+                </div>
+
+                <button (click)="save(userName,levelName)" class="btn btn-info btn-block w-50 mx-auto"> Send
+                    Data </button>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+<!-- <div *ngIf="courseName.invalid && userName.invalid">
+                    <button disabled class="btn btn-info btn-block w-50 mx-auto"> Send Data</button>
+                </div>  -->
+<!-- <div *ngIf="courseName.valid && userName.valid"> 
+                </div> -->
